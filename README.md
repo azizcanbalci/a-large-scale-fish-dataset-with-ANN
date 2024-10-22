@@ -21,28 +21,28 @@ Gerekli tüm Python kütüphaneleri yüklenmiştir:
 pip install tensorflow pandas numpy matplotlib seaborn 
 
 ### Veri Seti Hazırlığı
--Kaggle'dan büyük ölçekli bir balık veri seti kullanılıyor. Görüntü dosyalarının yolları ve etiketleri toplanıp bir Pandas DataFrame'e aktarılıyor.
+Kaggle'dan büyük ölçekli bir balık veri seti kullanılıyor. Görüntü dosyalarının yolları ve etiketleri toplanıp bir Pandas DataFrame'e aktarılıyor.
 
 ### Veri Görselleştirme
--Veri setindeki balık türlerinin görselleri görselleştiriliyor ve etiketlerin dağılımı bir çubuk grafikle gösteriliyor.
+Veri setindeki balık türlerinin görselleri görselleştiriliyor ve etiketlerin dağılımı bir çubuk grafikle gösteriliyor.
 
 ### Görüntülerin İşlenmesi
--Görseller yeniden boyutlandırılıyor (225x225) ve normalize ediliyor.
+Görseller yeniden boyutlandırılıyor (225x225) ve normalize ediliyor.
 
 ### Veri Bölünmesi
 Veri seti eğitim, doğrulama ve test setlerine ayrılıyor.
 
 ### Veri Artırma
--Eğitim seti üzerinde görüntülerin dönüş, kaydırma ve yatay çevirme gibi işlemlerle artırma uygulanıyor.
+Eğitim seti üzerinde görüntülerin dönüş, kaydırma ve yatay çevirme gibi işlemlerle artırma uygulanıyor.
 
 ### One-Hot Encoding
--Etiketler sayısal verilere dönüştürülüyor.
+Etiketler sayısal verilere dönüştürülüyor.
 
-###Modelin Tanımlanması
--İki gizli katman içeren bir sinir ağı oluşturuluyor. Model, 256 ve 128 nöronlu katmanlar ile oluşturulmuş ve Dropout katmanları ile aşırı öğrenmeyi engelliyor.
+### Modelin Tanımlanması
+İki gizli katman içeren bir sinir ağı oluşturuluyor. Model, 256 ve 128 nöronlu katmanlar ile oluşturulmuş ve Dropout katmanları ile aşırı öğrenmeyi engelliyor.
 
 ### Modelin Eğitimi
--Model, categorical_crossentropy kaybı ve accuracy metriği ile eğitim alıyor. Eğitim esnasında modelin doğrulama doğruluğu ve kaybı her epoch sonunda raporlanıyor.
+Model, categorical_crossentropy kaybı ve accuracy metriği ile eğitim alıyor. Eğitim esnasında modelin doğrulama doğruluğu ve kaybı her epoch sonunda raporlanıyor.
 
 ### Sonuçlar
--Modelin doğrulama doğruluğu ilk başlarda %36 iken, 17. epoch sonunda %89 doğruluğa ulaşmış.
+Modelin doğrulama doğruluğu ilk başlarda %36 iken, 17. epoch sonunda %89 doğruluğa ulaşmış.

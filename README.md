@@ -45,4 +45,4 @@ Etiketler sayısal verilere dönüştürülüyor.
 Model, categorical_crossentropy kaybı ve accuracy metriği ile eğitim alıyor. Eğitim esnasında modelin doğrulama doğruluğu ve kaybı her epoch sonunda raporlanıyor.
 
 ### Sonuçlar
-Modelin doğrulama doğruluğu ilk başlarda %36 iken, 17. epoch sonunda %89 doğruluğa ulaşmış.
+Modelin doğrulama doğruluğu ilk başlarda %36 iken, 17. epoch sonunda %89 doğruluğa ulaşmıştır.Bu değere 89-93 arasında değişmektedir.

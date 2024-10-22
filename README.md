@@ -18,13 +18,9 @@ Gerekli tüm Python kütüphaneleri yüklenmiştir:
 ### Kurulum
 
 ```bash
-pip install tensorflow pandas numpy matplotlib seaborn '''
+pip install tensorflow pandas numpy matplotlib seaborn '''bash
 
-
-
-
-
-Veri Seti Hazırlığı
+### Veri Seti Hazırlığı
 Kaggle'dan büyük ölçekli bir balık veri seti kullanılıyor. Görüntü dosyalarının yolları ve etiketleri toplanıp bir Pandas DataFrame'e aktarılıyor.
 
 Veri Görselleştirme
